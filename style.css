@@ -233,3 +233,65 @@ background-image: radial-gradient(circle at top left, #e4adc5ce,#32557fbb);
     margin: 32px -25px 10px 0px;
     border: 3px solid #FFFFFF;
 }
+
+/* Middle section */
+
+.container .section-m{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 695px;
+    top: 690px;
+
+    border-radius:50%;
+
+    background: #3F9AB7;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: all 1s ease;
+}
+
+.container .section-m:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+.section-m svg{
+    position: absolute;
+
+    left: 40%;
+    top: 35%;
+    transition: all 1s ease;
+}
+.section-m svg:hover{
+    cursor: pointer;
+
+}
+
+.section-m p{
+    position: absolute;
+    width: 105px;
+    height: 22px;
+    left: 120px;
+    top: 18%;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+
+    letter-spacing: 1px;
+
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.section-m p:hover{
+    cursor: pointer;
+    border-bottom-color: #3F9AB7;
+}
