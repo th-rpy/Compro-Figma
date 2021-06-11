@@ -170,3 +170,66 @@ background-image: radial-gradient(circle at top left, #e4adc5ce,#32557fbb);
     width: 470px;
     height: 747px;
 }
+
+/* Vertical Rectangle */ 
+
+.container .vertical-rect{
+    position: absolute;
+    width: 1440px;
+    height: 118px;
+    left: 0px;
+    right: 0px;
+    top: 837px;
+
+    background: #3F9AB7;
+}
+
+.container .vertical-rect p{
+    position: absolute;
+    width: 116px;
+    height: 33px;
+    left: 890px;
+    top: 25px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height */
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.container .vertical-rect p span{
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.container .vertical-rect .clients{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container .vertical-rect .clients img{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    margin: 32px -25px 10px 0px;
+    border: 3px solid #FFFFFF;
+}
