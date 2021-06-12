@@ -113,6 +113,7 @@ background-image: radial-gradient(circle at top left, #e4adc5ce,#32557fbb);
     width: 24px;
     height: 24px;
     margin-left: 110px;
+    cursor: pointer; 
 }
 
 /* Rectangle Style */
@@ -294,4 +295,63 @@ background-image: radial-gradient(circle at top left, #e4adc5ce,#32557fbb);
 .section-m p:hover{
     cursor: pointer;
     border-bottom-color: #3F9AB7;
+}
+
+/* Right Line */
+.right-line{
+    position: absolute;
+    width: 34px;
+    height: 380px;
+    left: 1260px;
+    top: 274px;
+
+    /* Gray 1 */
+
+    background: #ffffff;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.right-line .line{
+
+    position: absolute;
+    width: 2px;
+    height: 380px;
+    /* Gray 1 */
+
+    background: #333333;
+    
+}
+
+.right-line .twitter{
+    width: 18px;
+    height: 18px;
+    margin-top: 480px;
+    margin-left: -10px;
+}
+
+.right-line .insta{
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.right-line .facebook{
+   
+    margin-top: 10px;
+    margin-left: -12px;
+    width: 24px;
+    height: 24px;
+
+    background: #F2994A;
+    border-radius: 50%;
+}
+
+.right-line .facebook svg{
+   
+    margin-top: 3px;
+    margin-left: 2px;
 }
